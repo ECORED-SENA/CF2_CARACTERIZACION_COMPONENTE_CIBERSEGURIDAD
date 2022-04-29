@@ -2,16 +2,19 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span S
+      h1 Síntesis
+    p De acuerdo con las temáticas trabajadas en este componente formativo se pueden resaltar las diferentes vulnerabilidades a las cuales está expuesto un sistema de información y los usuarios que con este interactúan, también los efectos de los ataques informáticos en las víctimas y cómo se perpetúan aprovechando la ingenuidad del usuario, a través de la ingeniería social. El siguiente esquema presenta a modo visual la información aquí desarrollada:
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
-    .row.justify-content-center
-      .col-lg-10.mb-5
+    .row.justify-content-center.mt-5
+      .col-lg-8.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.png", alt="alt")
+    .row.justify-content-center
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.png')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
