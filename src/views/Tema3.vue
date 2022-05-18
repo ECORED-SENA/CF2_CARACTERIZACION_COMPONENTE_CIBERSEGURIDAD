@@ -7,7 +7,15 @@
         span 3
       h1 La ingeniería social 
     p La ingeniería social se ha vuelto una práctica común dentro de los ámbitos informáticos. Aunque se piensa que es una práctica nueva, en realidad se remonta a muchos años atrás. Este concepto nace en 1894 en un artículo escrito por el empresario holandés Jacob Cornelis Van Marken y con el pasar del tiempo, penetraría otras áreas hasta llegar a la informática. Esta técnica consiste en ganarse la confianza de la víctima e ir persuadiendo hasta lograr el objetivo de dar información y así poder realizar un ataque informático posteriormente.
-    img.mb-4(src='@/assets/curso/tema3/img1.svg', alt='Texto que describa la imagen')
+    .row.mt-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.position-relative.PT1.mt-5
+      .bloque-texto-g__img.posit(
+        :style="{'background-image': `url(${require('@/assets/curso/tema3/3.svg')})`}")
+        img.posit_1(src='@/assets/curso/tema3/4.png' alt='AvatarTop')
+      .bloque-texto-g__texto.p-5.posit_2
+        p.mb-0 Está técnica fue utilizada por Mitnick en varias ocasiones en las que logró con mucha facilidad hacerse pasar por personal técnico de las empresas y lograr robar información, hasta el punto de lograr ser prófugo del FBI. Consideraba que la sociedad es un sistema y, por ese hecho en sí mismo, puede ser modificado para obtener un resultado determinado.
+    
+
     .row.bg5 
       p.mt-5 La ingeniería social requiere de mucho estudio y análisis del usuario, conocer sus puntos débiles y rutinas. Comprende realizar un seguimiento detallado y luego encontrar el momento adecuado, con las preguntas indicadas, para empezar a realizar un perfil de la posible víctima y luego proceder a realizar el ataque, teniendo en cuenta sus puntos débiles. Es importante destacar que para que esto suceda con un grado de efectividad amplio se deben tener en cuenta las siguientes consideraciones:
       .row.justify-content-center.mt-5
@@ -65,12 +73,9 @@
 </template>
 
 <script>
-import Muestras from '../components/Muestras'
 export default {
   name: 'Tema3',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),

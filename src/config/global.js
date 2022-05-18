@@ -54,18 +54,11 @@ export default {
         titulo: 'Códigos de ética ',
         desarrolloContenidos: true,
       },
-      {
-        nombreRuta: 'sintesis',
-        icono: 'fas fa-sitemap',
-        numero: 'S',
-        titulo: 'Síntesis ',
-        desarrolloContenidos: true,
-      },
     ],
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'SÍntesis',
         nombreRuta: 'sintesis',
       },
       {

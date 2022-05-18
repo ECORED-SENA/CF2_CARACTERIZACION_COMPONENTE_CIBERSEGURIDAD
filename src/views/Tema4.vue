@@ -8,7 +8,15 @@
       h1 Diagnóstico de seguridad
     p En este apartado se abordarán los diferentes tipos de elementos a tener en cuenta para realizar un diagnóstico de seguridad, entendiendo qué se debe priorizar de acuerdo a las necesidades que tiene una empresa.
     p Es por esto que para la realización de un correcto diagnóstico es pertinente elaborar una lista de chequeo donde se coloquen los aspectos a evaluar, su nivel de importancia, los tiempos y, adicional a ello, la justificación del porqué se debe realizar ese proceso de diagnóstico.
-    img.mb-4.mt-4(src='@/assets/curso/tema4/img1.svg', alt='Texto que describa la imagen')
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.PT1(data-aos="zoom-in-left")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema4/4.svg')})`}"
+      )
+      .bloque-texto-g__texto.p-5
+        
+        p.margen1 La lista de chequeo es una herramienta utilizada para identificar y priorizar los aspectos que se deben verificar o diagnosticar de algún proceso de la organización. En nuestra vida cotidiana se utilizan estos aspectos muy a menudo; por ejemplo, si se va a realizar una compra en algún supermercado creamos una lista dando prioridad a los elementos más necesarios y luego los menos relevantes, así se puede controlar mejor los procesos y es más fácil identificarlos.
+    
+
     .row.bg7.justify-content-center(data-aos="zoom-in-left")
       p.text-center.mt-5 Este proceso empieza con la identificación en la infraestructura en la cual se deben generar ítems para atender a cada uno de ellos de manera particular. En la siguiente figura interactiva se puede apreciar un ejemplo:
       p.text-center.mt-4 <strong>Ejemplo para iniciar un diagnóstico</strong>
@@ -25,7 +33,7 @@
             img(src='@/assets/curso/tema4/img2.svg', alt='Texto que describa la imagen')
         .row.justify-content-center.mt-5
           .col-lg-6
-            img(src='@/assets/curso/tema4/img2.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4/img3.svg', alt='Texto que describa la imagen')
 
           .col-lg-6
             .row.mt-4
@@ -44,13 +52,19 @@
                 p.mt-2 Se debe verificar la configuración de los dispositivos de conexión de la organización. Un aspecto importante es el manejo legítimo de acceso de los mismos, los cuales  deben estar configurados con sistemas de autenticación que solo permitan a los empleados, o personas que requieren el acceso a los recursos. Se debe evitar conexiones no deseadas en los mismos.
           .col-lg-6
             img(src='@/assets/curso/tema4/img4.svg', alt='Texto que describa la imagen')
-        p Acciones para prevenir
-        p En el aspecto de redes y conexiones, se pueden realizar algunas acciones para prevenir. Un ejemplo, es el software netstumbler. Este aplicativo puede detectar redes wifi y mostrar información sobre su configuración, la cual  puede ser utilizada para luego cometer un delito por parte de un delincuente informático.
-        p En este caso se debe proceder a deshabilitar una opción en nuestro dispositivo de conexión la cual se llama “Difundir nombre del SSID de la red”, el SSID de la red es el nombre que recibe la red y que le permite a los usuarios conectarse a la misma. Lo que se hace al momento de ocultarla, es que un posible atacante no puede visualizarla y menos acceder a ella. Solo se registran los usuarios que queremos que sí puedan utilizar la red.
-      .row.justify-content-center
+        .row
+          .col-lg-1
+          .col-lg-11
+            p Acciones para prevenir
+            p En el aspecto de redes y conexiones, se pueden realizar algunas acciones para prevenir. Un ejemplo, es el software netstumbler. Este aplicativo puede detectar redes wifi y mostrar información sobre su configuración, la cual  puede ser utilizada para luego cometer un delito por parte de un delincuente informático.
+            p En este caso se debe proceder a deshabilitar una opción en nuestro dispositivo de conexión la cual se llama “Difundir nombre del SSID de la red”, el SSID de la red es el nombre que recibe la red y que le permite a los usuarios conectarse a la misma. Lo que se hace al momento de ocultarla, es que un posible atacante no puede visualizarla y menos acceder a ella. Solo se registran los usuarios que queremos que sí puedan utilizar la red.
+          
+      .row.justify-content-center.mt3
         .col-lg-10
           .cajon.color-primario.p-4.mb-4
             p.mt-2 Aunque en muchas ocasiones el diagnóstico se puede confundir con una auditoría, este solo se dedica a realizar funciones de monitoreo para verificar que la infraestructura esté funcionando de manera óptima. La auditoría es un proceso que comprende aspectos mucho más profundos tales como un diagnóstico detallado de los componentes y su interacción entre sí, esto involucra tanto tecnología, procesos, personas, entre otros.
+    .row.mt-5
+    .row.mt-5
     p.mt-5 Para la realización de un correcto diagnóstico se deben seguir algunas reglas que permitan establecer la continuidad de los procesos y determinar los cambios o funciones que se deben realizar en cada uno de ellos. Es así como el ciclo PHVA es un estándar para la valoración de objetivos en los procesos empresariales, pues permite evaluar un componente en diferentes tiempos y garantizar su correcto funcionamiento. El ciclo PHVA comprende las siguientes fases: Planear, Hacer, Verificar y Actuar.
     .row.justify-content-center.mt-5(data-aos="zoom-in-left")
       .col-lg-4.mt-5
@@ -76,12 +90,9 @@
 </template>
 
 <script>
-import Muestras from '../components/Muestras'
 export default {
   name: 'Tema4',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),

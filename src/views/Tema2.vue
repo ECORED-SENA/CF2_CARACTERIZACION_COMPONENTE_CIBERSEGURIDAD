@@ -6,15 +6,21 @@
       .titulo-principal__numero
         span 2
       h1 Vulnerabilidades 
-    img.mb-4(src='@/assets/curso/tema2/img1.svg', alt='Texto que describa la imagen')
-    p.mt-5 Una de las principales vulnerabilidades son el uso incorrecto de las contraseñas, en parte a su poco nivel de seguridad. A continuación, se explicarán los riesgos y algunas buenas prácticas que permiten estar mucho más alerta y detectar cualquier incongruencia a tiempo:
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.PT1(data-aos="zoom-in-left")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema2/2.svg')})`}"
+      )
+      .bloque-texto-g__texto.p-5
+        
+        p.margen1 Las vulnerabilidades de los sistemas informáticos son muchas pero la principal amenaza es un usuario desprevenido y no capacitado. Como se evidenció, en la temática anterior, existen muchos ataques informáticos que colocan en riesgo la información de los usuarios y corporaciones a lo largo del mundo. Sin embargo, esto sucede en la mayoría de veces por un desconocimiento, por parte de los usuarios, sobre las vulnerabilidades que se presentan en los sistemas informáticos.
+    
     .row.bg4
       .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
         h2 Contraseñas
       p Aunque existen muchas teorías con respecto a este tipo de riesgo, es una gran realidad en tiempos actuales. El debate empieza desde la cantidad de datos hasta el tipo de datos a utilizar, lo cierto es que la combinación de diferentes tipos de caracteres ayuda mucho a prevenir cuando un delincuente intenta descifrar una contraseña. La siguiente figura presenta algunas recomendaciones fundamentales para la creación de una contraseña que permita garantizar un nivel óptimo de acceso:
       .row.justify-content-center.mt-4
         .col-lg-10
-          .titulo-sexto.color-acento-botones
+          .titulo-sexto.color1
             h5 Figura 3 
             span Creación de contraseña segura
           img.mb-4(src='@/assets/curso/tema2/img2.svg', alt='Texto que describa la imagen')
@@ -22,7 +28,7 @@
         span.it software 
         | de encriptación y que este, mediante un algoritmo, genere la clave teniendo en cuenta las características antes mencionadas.
       p En el portal de lastpass.com se tiene un generador de contraseñas a partir de una combinación de opciones como se ilustra en la imagen.
-      .titulo-sexto.color-acento-botones.mt-4(data-aos="zoom-in-left")
+      .titulo-sexto.color1.mt-4(data-aos="zoom-in-left")
         h5 Figura 4
         span.it Generador de contraseñas seguras
       .row(data-aos="zoom-in-left")
@@ -39,14 +45,14 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img4.svg')})`}"
       )
-      .bloque-texto-g__texto.p-4
-        <br><br>
+      .bloque-texto-g__texto.p-5
+
         p Es importante también tener en cuenta que algunos sitios dejan grabada en la caché o memoria del navegador los datos que se suministran al momento de registrarse en algún portal de internet o sitio para obtener o usar servicios que estos prestan.
-        <br><br><br>    
+
     p.mt-5 Una manera de prevenir este tipo de problemas es, primero que todo, no guardar contraseñas dentro del navegador a menos que sea el equipo personal y que nadie más tenga acceso al mismo, aunque no se recomienda igualmente esta práctica, y lo segundo es utilizar el navegador en modo seguro o incógnito.
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-lg-10
-        .titulo-sexto.color-acento-botones
+        .titulo-sexto.color1
           h5 Figura 5
           span.it Modo incógnito
         .row
@@ -100,7 +106,7 @@
         .col-lg-6
           img(src='@/assets/curso/tema2/img6.png', alt='Texto que describa la imagen')
       .row.justify-content-center(data-aos="zoom-in-left")
-        .col-lg-6
+        .col-lg-6.mt-4
           img(src='@/assets/curso/tema2/img7.png', alt='Texto que describa la imagen')
 
         .col-lg-6

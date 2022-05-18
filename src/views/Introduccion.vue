@@ -17,10 +17,10 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/img1.svg')})`}"
       )
-      .bloque-texto-g__texto.p-4
-        <br><br>
-        p Se busca entonces, con este componente lograr desarrollar competencias en clasificación de ataques informáticos, ingeniería social, como herramienta de persuasión, vulnerabilidades de la infraestructura tecnológica de una organización y códigos de ética aplicados. 
-        <br><br><br>
+      .bloque-texto-g__texto.p-5
+        
+        p.margen1 Se busca entonces, con este componente lograr desarrollar competencias en clasificación de ataques informáticos, ingeniería social, como herramienta de persuasión, vulnerabilidades de la infraestructura tecnológica de una organización y códigos de ética aplicados. 
+        
 </template>
 
 <script>
