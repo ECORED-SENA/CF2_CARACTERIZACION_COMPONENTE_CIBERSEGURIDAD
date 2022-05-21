@@ -106,7 +106,7 @@
         .col-lg-6
           img(src='@/assets/curso/tema2/img6.png', alt='Texto que describa la imagen')
       .row.justify-content-center(data-aos="zoom-in-left")
-        .col-lg-6.mt-4
+        .col-lg-6.mt-4.mb-4
           img(src='@/assets/curso/tema2/img7.png', alt='Texto que describa la imagen')
 
         .col-lg-6

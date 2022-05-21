@@ -55,7 +55,7 @@
         .row
           .col-lg-1
           .col-lg-11
-            p Acciones para prevenir
+            p <strong>Acciones para prevenir</strong>
             p En el aspecto de redes y conexiones, se pueden realizar algunas acciones para prevenir. Un ejemplo, es el software netstumbler. Este aplicativo puede detectar redes wifi y mostrar información sobre su configuración, la cual  puede ser utilizada para luego cometer un delito por parte de un delincuente informático.
             p En este caso se debe proceder a deshabilitar una opción en nuestro dispositivo de conexión la cual se llama “Difundir nombre del SSID de la red”, el SSID de la red es el nombre que recibe la red y que le permite a los usuarios conectarse a la misma. Lo que se hace al momento de ocultarla, es que un posible atacante no puede visualizarla y menos acceder a ella. Solo se registran los usuarios que queremos que sí puedan utilizar la red.
           
