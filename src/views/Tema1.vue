@@ -64,61 +64,80 @@
         .cajon.color-primario.p-4.mb-4(data-aos="zoom-in-left")
           p.mt-2 Esta práctica está convirtiéndose en un problema mucho más grave, puesto que los intereses van cambiando, ya que en algunos casos la información puede causar problemas aún de mayor impacto.
     p La lista de ataques informáticos es incontable, pero en este segmento se ha querido ilustrar aquellos que por su denominación causan un daño bastante significativo, veámoslos:
-    ImagenInfograficaB.color-primario.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/tema1/info.svg', alt='Texto que describa la imagen')
+    .fondo1.py-5
+      .col-lg-3
+        p.mb-4.text-white(data-aos="fade-left") Haga clic en cada uno de los íconos y conozca los ataques comunes.
+      .row.justify-content-center(data-aos="fade-right")
+        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(1)")
+          img.mb-3(src="@/assets/curso/tema1/img12.svg" ref="img1" v-show="seleccion!=1")      
+          img.mb-3(src="@/assets/curso/tema1/img21.svg" ref="img1b" v-show="seleccion==1")      
+          h3.text-center.text-white <i>Malware</i>
+        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(2)")
+          img.mb-3(src="@/assets/curso/tema1/a.svg" ref="img2" v-show="seleccion!=2")      
+          img.mb-3(src="@/assets/curso/tema1/aa.svg" ref="img2b" v-show="seleccion==2")      
+          h3.text-center.text-white Virus
+        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(3)")
+          img.mb-3(src="@/assets/curso/tema1/b.svg" ref="img3" v-show="seleccion!=3")      
+          img.mb-3(src="@/assets/curso/tema1/bb.svg" ref="img3b" v-show="seleccion==3")      
+          h3.text-center.text-white Gusanos
+        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(4)")
+          img.mb-3(src="@/assets/curso/tema1/c.svg" ref="img4" v-show="seleccion!=4")      
+          img.mb-3(src="@/assets/curso/tema1/cc.svg" ref="img4b" v-show="seleccion==4")      
+          h3.text-center.text-white <i>Troyanos</i> 
+        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(5)")
+          img.mb-3(src="@/assets/curso/tema1/d.svg" ref="img5" v-show="seleccion!=5")      
+          img.mb-3(src="@/assets/curso/tema1/dd.svg" ref="img5b" v-show="seleccion==5")      
+          h3.text-center.text-white <i>Spyware</i>
+        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(6)")
+          img.mb-3(src="@/assets/curso/tema1/e.svg" ref="img6" v-show="seleccion!=6")      
+          img.mb-3(src="@/assets/curso/tema1/ee.svg" ref="img6b" v-show="seleccion==6")      
+          h3.text-center.text-white <i>Phishing</i>
+        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(7)")
+          img.mb-3(src="@/assets/curso/tema1/f.svg" ref="img7" v-show="seleccion!=7")      
+          img.mb-3(src="@/assets/curso/tema1/ff.svg" ref="img7b" v-show="seleccion==7")      
+          h3.text-center.text-white DDoS
 
-      div(x="6.5%" y="40%" tooltip="Malware" numero="")
-        .row.bg3.margint1
-          .col-lg-12.p-5
+      .row.justify-content-center
+        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial.p-0
+          img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==1")              
+        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+          img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==2")              
+        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+          img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==3")              
+        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+          img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==4")              
+        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+          img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==5")              
+        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+          img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==6")              
+        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+          img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==7")              
 
-            p Tipo de software que tiene la capacidad de ser ejecutado bajo líneas de comandos oculta o invisible para la víctima. Realiza operaciones como apertura de puertos, brinda acceso a otros programas y, en el peor de los casos, brinda acceso remoto al dispositivo.
-
-      div(x="20%" y="40%" tooltip="Virus" numero="")
-        .row.bg31.margint1
-          .col-lg-12.p-5
-
-            p Es un programa que tiene la capacidad de modificar funciones del sistema y colocar en riesgo la información que este almacena.
-
-      div(x="33.8%" y="40%" tooltip="Gusanos" numero="")
-        .row.bg32.margint1
-          .col-lg-12.p-5
-
-            p Es un tipo de malware que tiene la capacidad de propagarse en una red de computadoras afectando un gran número de ellas.
-
-      div(x="47.6%" y="40%" tooltip="Troyanos" numero="")
-        .row.bg33.margint1
-          .col-lg-12.p-5
-
-            p Es un tipo de malware que se copia en una computadora y luego espera una orden, regularmente desde un equipo por fuera de la red, para realizar acciones que colocan en riesgo la información que se maneja en un sistema informático.
-
-      div(x="61.7%" y="40%" tooltip="Spyware" numero="")
-        .row.bg34.margint1
-          .col-lg-12.p-5
-
-            p Tipo de virus informático cuya finalidad es permitir realizar acciones de espionaje y seguimiento a sistemas informáticos para ver los movimientos que realiza el usuario en el sistema informático.
-
-      div(x="75%" y="40%" tooltip="Phishing" numero="")
-        .row.bg35.margint1
-          .col-lg-12.p-5
-
-            p Es una técnica utilizada para capturar datos e información aprovechando el descuido y desconocimiento del usuario.
-
-      div(x="88.8%" y="40%" tooltip="DDoS" numero="")
-        .row.bg36.margint1
-          .col-lg-12.p-5
-
-            p Denegación de servicio distribuido (DDoS) es un ataque informático que bloquea el correcto acceso a los recursos de un sistema informático. Este más que todo limita al usuario a utilizar legítimamente un sistema de información o servicio que puede brindar una empresa.
-
-    .row.p-3.bgfa
+      .fondo2.div.p-0(v-if="seleccion!=0" v-bind:data-aos="seleccion!=0?'fade-in':''" )
+        div.p-4(style="background-color: #FFFFFF")
+          div.p-0(v-show="seleccion==1")
+            p.mb-4 Tipo de <i>software</i> que tiene la capacidad de ser ejecutado bajo líneas de comandos oculta o invisible para la víctima. Realiza operaciones como apertura de puertos, brinda acceso a otros programas y, en el peor de los casos, brinda acceso remoto al dispositivo.
+          div.p-0(v-show="seleccion==2")
+            p.mb-4 Es un programa que tiene la capacidad de modificar funciones del sistema y colocar en riesgo la información que este almacena.
+          div.p-0(v-show="seleccion==3")
+            p.mb-4 Es un tipo de malware que tiene la capacidad de propagarse en una red de computadoras afectando un gran número de ellas.
+          div.p-0(v-show="seleccion==4")
+            p.mb-0 Es un tipo de malware que se copia en una computadora y luego espera una orden, regularmente desde un equipo por fuera de la red, para realizar acciones que colocan en riesgo la información que se maneja en un sistema informático.
+          div.p-0(v-show="seleccion==5")
+            p.mb-4 Tipo de virus informático cuya finalidad es permitir realizar acciones de espionaje y seguimiento a sistemas informáticos para ver los movimientos que realiza el usuario en el sistema informático.
+          div.p-0(v-show="seleccion==6")
+            p.mb-0 Es una técnica utilizada para capturar datos e información aprovechando el descuido y desconocimiento del usuario.
+          div.p-0(v-show="seleccion==7")
+            p.mb-4 Denegación de servicio distribuido (DDoS) es un ataque informático que bloquea el correcto acceso a los recursos de un sistema informático. Este más que todo limita al usuario a utilizar legítimamente un sistema de información o servicio que puede brindar una empresa.
+        .row.justify-content-center
+          .col-10(style="background-color: #F24DC3; height: 8px !important")
+            p.mb-0 
+    .row.p-3.bgfa.mt-5
       .col-sm-1
         img.mt-4(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
       .col-sm-11
         h5.mb-0.mt-4 Para recordar
         p En esta temática se abordó la tipología de ataques informáticos perpetrados por terceros, en donde es importante siempre tener presente que la capacitación y el conocimiento son las herramientas fundamentales que permiten mantener alertas ante cualquier circunstancia que se pueda presentar.
-
-
 
 
 </template>
@@ -128,7 +147,7 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
-    // variables de vue
+    seleccion: 0,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -137,6 +156,11 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    click: function(val) {
+      this.seleccion = val
+    },
   },
 }
 </script>
