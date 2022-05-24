@@ -68,49 +68,49 @@
       .col-lg-3
         p.mb-4.text-white(data-aos="fade-left") Haga clic en cada uno de los íconos y conozca los ataques comunes.
       .row.justify-content-center(data-aos="fade-right")
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(1)")
+        .col-xl.col-lg-2.col-md-3.col-sm-4.col-4.contenedor-especial(v-on:click="click(1)")
           img.mb-3(src="@/assets/curso/tema1/img12.svg" ref="img1" v-show="seleccion!=1")      
           img.mb-3(src="@/assets/curso/tema1/img21.svg" ref="img1b" v-show="seleccion==1")      
           h3.text-center.text-white <i>Malware</i>
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(2)")
+        .col-xl.col-lg-2.col-md-3.col-sm-4.col-4.contenedor-especial(v-on:click="click(2)")
           img.mb-3(src="@/assets/curso/tema1/a.svg" ref="img2" v-show="seleccion!=2")      
           img.mb-3(src="@/assets/curso/tema1/aa.svg" ref="img2b" v-show="seleccion==2")      
           h3.text-center.text-white Virus
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(3)")
+        .col-xl.col-lg-2.col-md-3.col-sm-4.col-4.contenedor-especial(v-on:click="click(3)")
           img.mb-3(src="@/assets/curso/tema1/b.svg" ref="img3" v-show="seleccion!=3")      
           img.mb-3(src="@/assets/curso/tema1/bb.svg" ref="img3b" v-show="seleccion==3")      
           h3.text-center.text-white Gusanos
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(4)")
+        .col-xl.col-lg-2.col-md-3.col-sm-4.col-4.contenedor-especial(v-on:click="click(4)")
           img.mb-3(src="@/assets/curso/tema1/c.svg" ref="img4" v-show="seleccion!=4")      
           img.mb-3(src="@/assets/curso/tema1/cc.svg" ref="img4b" v-show="seleccion==4")      
           h3.text-center.text-white <i>Troyanos</i> 
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(5)")
+        .col-xl.col-lg-2.col-md-3.col-sm-4.col-4.contenedor-especial(v-on:click="click(5)")
           img.mb-3(src="@/assets/curso/tema1/d.svg" ref="img5" v-show="seleccion!=5")      
           img.mb-3(src="@/assets/curso/tema1/dd.svg" ref="img5b" v-show="seleccion==5")      
           h3.text-center.text-white <i>Spyware</i>
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(6)")
+        .col-xl.col-lg-2.col-md-3.col-sm-4.col-4.contenedor-especial(v-on:click="click(6)")
           img.mb-3(src="@/assets/curso/tema1/e.svg" ref="img6" v-show="seleccion!=6")      
           img.mb-3(src="@/assets/curso/tema1/ee.svg" ref="img6b" v-show="seleccion==6")      
           h3.text-center.text-white <i>Phishing</i>
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(7)")
+        .col-xl.col-lg-2.col-md-3.col-sm-4.col-4.contenedor-especial(v-on:click="click(7)")
           img.mb-3(src="@/assets/curso/tema1/f.svg" ref="img7" v-show="seleccion!=7")      
           img.mb-3(src="@/assets/curso/tema1/ff.svg" ref="img7b" v-show="seleccion==7")      
           h3.text-center.text-white DDoS
 
       .row.justify-content-center
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial.p-0
+        .col-xl.col-lg-2.col-md-3.col-sm-4.col-4.contenedor-especial.p-0
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==1")              
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+        .col-xl.col-lg-2.col-md-3.col-sm-4.col-4.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==2")              
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+        .col-xl.col-lg-2.col-md-3.col-sm-4.col-4.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==3")              
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+        .col-xl.col-lg-2.col-md-3.col-sm-4.col-4.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==4")              
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+        .col-xl.col-lg-2.col-md-3.col-sm-4.col-4.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==5")              
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+        .col-xl.col-lg-2.col-md-3.col-sm-4.col-4.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==6")              
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+        .col-xl.col-lg-2.col-md-3.col-sm-4.col-4.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==7")              
 
       .fondo2.div.p-0(v-if="seleccion!=0" v-bind:data-aos="seleccion!=0?'fade-in':''" )
