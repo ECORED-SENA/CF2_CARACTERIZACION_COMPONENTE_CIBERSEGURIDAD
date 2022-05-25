@@ -170,28 +170,28 @@ export default {
   complementario: [
     {
       texto:
-        '1. Ataques informáticos Olivares Serrano, J. & Oncins Rodríguez, A. (2015). Seguridad Informática - Hacking ético: conocer el ataque para una mejor defensa. (3a. Ed.) Barcelona: Ediciones ENI.',
+        'Olivares Serrano, J. & Oncins Rodríguez, A. (2015). Seguridad Informática - Hacking ético: conocer el ataque para una mejor defensa. (3a. Ed.) Barcelona: Ediciones ENI. 1. Ataques informáticos',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000096342',
     },
     {
       texto:
-        '2. Vulnerabilidades Ramírez, J., Villao, K., Orrala, O. & Garcés, J. (2016) Seguridad informática o seguridad personal, evolucionando con la tecnología. Revista Científica y Tecnológica UPSE 3.2, 3(2), 113-17.',
+        'Ramírez, J., Villao, K., Orrala, O. & Garcés, J. (2016) Seguridad informática o seguridad personal, evolucionando con la tecnología. Revista Científica y Tecnológica UPSE 3.2, 3(2), 113-17. 2. Vulnerabilidades',
       tipo: 'Artículo',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_crossref_primary_10_26423_rctu_v3i2_163',
     },
     {
       texto:
-        '2. Vulnerabilidades Escuela Europea de Excelencia. (2019). Listado de amenazas y vulnerabilidades en ISO 27001. ',
+        'Escuela Europea de Excelencia. (2019). Listado de amenazas y vulnerabilidades en ISO 27001. 2. Vulnerabilidades ',
       tipo: 'Artículo',
       link:
         'https://www.escuelaeuropeaexcelencia.com/2019/11/listado-de-amenazas-y-vulnerabilidades-en-iso-27001/',
     },
     {
       texto:
-        '3. La ingeniería social Castellanos H, L. R. (2012). Seguridad en informática: seguridad, auditoría, cortafuegos, ingeniería social, iso 27000. Saarbrücken, Alemania: Editorial Académica Española.',
+        'Castellanos H, L. R. (2012). Seguridad en informática: seguridad, auditoría, cortafuegos, ingeniería social, iso 27000. Saarbrücken, Alemania: Editorial Académica Española. 3. La ingeniería social',
       tipo: 'Libro',
       link: [
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000083567',
@@ -199,13 +199,13 @@ export default {
     },
     {
       texto:
-        '3. La ingeniería social DOITSMART. (2019). Así se hace la ingeniería social. [Archivo de video] YouTube.',
+        'DOITSMART. (2019). Así se hace la ingeniería social. [Archivo de video] YouTube. 3. La ingeniería social',
       tipo: 'Video',
       link: ['https://www.youtube.com/watch?v=Xy3QD0baCco'],
     },
     {
       texto:
-        '4. Diagnóstico de seguridad Gómez Vieites, Á. (2013). Auditoría de seguridad informática. Bogotá: Ediciones de La U.',
+        'Gómez Vieites, Á. (2013). Auditoría de seguridad informática. Bogotá: Ediciones de La U. 4. Diagnóstico de seguridad',
       tipo: 'Libro',
       link: [
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000063745',
@@ -213,7 +213,7 @@ export default {
     },
     {
       texto:
-        '5. Códigos de ética Silva, N. & Espina, J. (2011). Ética Informática en la Sociedad de la Información. Revista venezonala de gerencia, 11(36).',
+        'Silva, N. & Espina, J. (2011). Ética Informática en la Sociedad de la Información. Revista venezonala de gerencia, 11(36). 5. Códigos de ética',
       tipo: 'Artículo',
       link: [
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_crossref_primary_10_31876_revista_v11i36_10441',
