@@ -21,13 +21,16 @@
       p.text-center.mt-5 Este proceso empieza con la identificación en la infraestructura en la cual se deben generar ítems para atender a cada uno de ellos de manera particular. En la siguiente figura interactiva se puede apreciar un ejemplo:
       p.text-center.mt-4 <strong>Ejemplo para iniciar un diagnóstico</strong>
       .col-lg-8.mt-5
+        .titulo-sexto.color1
+          h5 Figura 7
+          span.it Ejemplo para iniciar un diagnóstico
         .row.justify-content-center
           .col-lg-6
             .row.mt-4
               .col-lg-2
                 img(src='@/assets/curso/tema4/1.svg', alt='Texto que describa la imagen')
               .col-lg-10
-                p.mb-0 <strong> Manejo y gestión de contraseñas.</strong>
+                p.mb-0 <strong> Manejo y gestión de contraseñas</strong>
                 p.mt-2 Esto evaluaría la frecuencia en que se realiza el cambio de contraseña y también el mecanismo utilizado para realizar la creación de las mismas.
           .col-lg-6
             img(src='@/assets/curso/tema4/img2.svg', alt='Texto que describa la imagen')
@@ -40,15 +43,15 @@
               .col-lg-2
                 img(src='@/assets/curso/tema4/2.svg', alt='Texto que describa la imagen')
               .col-lg-10
-                p.mb-0 <strong> Actualización de software preventivo y correctivo.</strong>
-                p.mt-2 Dentro de estos procesos entran los antivirus, antispyware, firewalls, entre otros. Se debe garantizar que estos se encuentren debidamente instalados y comprobar que funcionan de manera correcta.
+                p.mb-0 <strong> Actualización de <i>software</i> preventivo y correctivo</strong>
+                p.mt-2 Dentro de estos procesos entran los antivirus, <i>antispyware</i>, <i>firewalls</i>, entre otros. Se debe garantizar que estos se encuentren debidamente instalados y comprobar que funcionan de manera correcta.
         .row.justify-content-center.mt-5
           .col-lg-6
             .row.mt-4
               .col-lg-2
                 img(src='@/assets/curso/tema4/3.svg', alt='Texto que describa la imagen')
               .col-lg-10
-                p.mb-0 <strong> Redes y conexiones.</strong>
+                p.mb-0 <strong> Redes y conexiones</strong>
                 p.mt-2 Se debe verificar la configuración de los dispositivos de conexión de la organización. Un aspecto importante es el manejo legítimo de acceso de los mismos, los cuales  deben estar configurados con sistemas de autenticación que solo permitan a los empleados, o personas que requieren el acceso a los recursos. Se debe evitar conexiones no deseadas en los mismos.
           .col-lg-6
             img(src='@/assets/curso/tema4/img4.svg', alt='Texto que describa la imagen')
@@ -56,7 +59,7 @@
           .col-lg-1
           .col-lg-11
             p <strong>Acciones para prevenir</strong>
-            p En el aspecto de redes y conexiones, se pueden realizar algunas acciones para prevenir. Un ejemplo, es el software netstumbler. Este aplicativo puede detectar redes wifi y mostrar información sobre su configuración, la cual  puede ser utilizada para luego cometer un delito por parte de un delincuente informático.
+            p En el aspecto de redes y conexiones, se pueden realizar algunas acciones para prevenir. Un ejemplo, es el <i>software netstumbler</i>. Este aplicativo puede detectar redes <i>wifi</i> y mostrar información sobre su configuración, la cual  puede ser utilizada para luego cometer un delito por parte de un delincuente informático.
             p En este caso se debe proceder a deshabilitar una opción en nuestro dispositivo de conexión la cual se llama “Difundir nombre del SSID de la red”, el SSID de la red es el nombre que recibe la red y que le permite a los usuarios conectarse a la misma. Lo que se hace al momento de ocultarla, es que un posible atacante no puede visualizarla y menos acceder a ella. Solo se registran los usuarios que queremos que sí puedan utilizar la red.
           
       .row.justify-content-center.mt3
@@ -76,15 +79,24 @@
 
           .tarjeta.color-acento-botones.p-3(x="49.3%" y="4.5%" numero="")
 
-            p Se ejecutan las acciones que previamente se planearon, respetando los tiempos negociados y las actividades y compromisos establecidos.
-
-          .tarjeta.color-acento-botones.p-3(x="3%" y="51%" numero="")
             p En la planeación se determina el alcance que tendrá el proceso y, adicional a ello, las actividades que se desean realizar y los tiempos que está llevara. También, se debe tener en cuenta las personas involucradas en dichos procesos, permitiendo garantizar el correcto funcionamiento de la planeación.
 
-          .tarjeta.color-acento-botones.p-3(x="93%" y="51%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="3%" y="51%" numero="")
             p Se establecen las correcciones de acuerdo a los hallazgos encontrados. Este proceso debe tener una vigilancia que garantice que se realiza de manera correcta. Adicional a ello, se debe entregar un informe de lo corregido y encontrado.
+
+
+          .tarjeta.color-acento-botones.p-3(x="93%" y="51%" numero="")
+            p Se ejecutan las acciones que previamente se planearon, respetando los tiempos negociados y las actividades y compromisos establecidos.
+
           .tarjeta.color-acento-botones.p-3(x="49.3%" y="95%" numero="")
-            p Se establecen las acciones de comprobación alrededor de la realización de las acciones de corrección de los hallazgos encontrados en el proceso. Se realizan planes de mejora de los mismos y estas acciones deben ir encaminadas a encontrar fallos o futuros problemas con la infraestructura. Es importante tener en cuenta que los factores de riesgo son la finalidad principal de este proceso.
+            p Se establecen las acciones de comprobación alrededor de la realización de las acciones de corrección de los hallazgos encontrados en el proceso. Se realizan planes de mejora de los mismos y estas acciones deben ir encaminadas a encontrar fallos o futuros problemas con la infraestructura. <strong>Es importante tener en cuenta que los factores de riesgo son la finalidad principal de este proceso.</strong>
+    .row.p-3.bgfa.mt-5
+      .col-sm-1
+        img.mt-4(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
+      .col-sm-11
+        h5.mb-0.mt-4 Para recordar
+        p El diagnóstico de la seguridad implica esfuerzos y procesos que garanticen que la infraestructura y elementos tecnológicos, que hacen parte de una empresa, funcionen de manera óptima, teniendo en cuenta el ciclo PHVA para determinar, en cada una de sus fases, las actividades y procedimiento a realizar.
+
 
 
 </template>

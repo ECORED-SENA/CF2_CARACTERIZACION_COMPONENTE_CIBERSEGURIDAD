@@ -13,7 +13,7 @@
       .bloque-texto-g__texto.p-5
         
         p.margen1 Las vulnerabilidades de los sistemas informáticos son muchas pero la principal amenaza es un usuario desprevenido y no capacitado. Como se evidenció, en la temática anterior, existen muchos ataques informáticos que colocan en riesgo la información de los usuarios y corporaciones a lo largo del mundo. Sin embargo, esto sucede en la mayoría de veces por un desconocimiento, por parte de los usuarios, sobre las vulnerabilidades que se presentan en los sistemas informáticos.
-    
+    P.mt-4 Una de las principales vulnerabilidades son el uso incorrecto de las contraseñas, en parte a su poco nivel de seguridad. A continuación, se explicarán los riesgos y algunas buenas prácticas que permiten estar mucho más alerta y detectar cualquier incongruencia a tiempo:
     .row.bg4
       .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
         h2 Contraseñas
@@ -33,13 +33,13 @@
         span.it Generador de contraseñas seguras
       .row(data-aos="zoom-in-left")
         .col-lg-7
-          img.mb-4(src='@/assets/curso/tema2/img3.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema2/img3.png', alt='Texto que describa la imagen')
         .col-lg-5.p-5.bgfa2
-          p.mt-4 Este generador de contraseñas permite parametrizar los valores que se desea en nuestra contraseña desde la longitud, combinación de caracteres y dificultad de escritura.
+          p Este generador de contraseñas permite parametrizar los valores que se desea en nuestra contraseña desde la longitud, combinación de caracteres y dificultad de escritura.
           p Esta es una posibilidad que se puede tener a la mano por parte de aquellos usuarios que quieren generar una contraseña con características de seguridad y teniendo en cuenta las recomendaciones expresadas anteriormente.
       
       .titulo-segundo.color-acento-contenido.mt-5
-        h2 Almacenamiento de Contraseñas
+        h2 Almacenamiento de contraseñas
       p Otra vulnerabilidad que se presenta en los usuarios del sistema es el almacenamiento de las contraseñas en la memoria del navegador de internet. Esta es una práctica común por las personas para no tener necesidad de volver a colocar la contraseña al momento de autenticarse en el sistema; así que si una persona solicita el ingreso al sistema y los datos están grabados primero, puede ingresar al sistema sin restricción y estos datos pueden ser obtenidos desde la memoria del navegador.
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")
       .bloque-texto-g__img(
@@ -47,7 +47,7 @@
       )
       .bloque-texto-g__texto.p-5
 
-        p Es importante también tener en cuenta que algunos sitios dejan grabada en la caché o memoria del navegador los datos que se suministran al momento de registrarse en algún portal de internet o sitio para obtener o usar servicios que estos prestan.
+        p Es importante también tener en cuenta que algunos sitios dejan grabada en la <i>caché</i> o memoria del navegador los datos que se suministran al momento de registrarse en algún portal de internet o sitio para obtener o usar servicios que estos prestan.
 
     p.mt-5 Una manera de prevenir este tipo de problemas es, primero que todo, no guardar contraseñas dentro del navegador a menos que sea el equipo personal y que nadie más tenga acceso al mismo, aunque no se recomienda igualmente esta práctica, y lo segundo es utilizar el navegador en modo seguro o incógnito.
     .row.justify-content-center(data-aos="zoom-in-left")
@@ -58,7 +58,7 @@
         .row
           .col-lg-8
             img(src='@/assets/curso/tema2/img5.png', alt='Texto que describa la imagen')
-          .col-lg-4.p-5.bgfa2
+          .col-lg-4.p-4.bgfa2
             p.mt-4 El modo incógnito permite realizar un manejo seguro de los datos.
             p.mb-0 Ahora bien, aunque existen muchos tipos de vulnerabilidades se han mostrado estas como las comunes que cometen los usuarios en Internet. Este tipo de vulnerabilidades desatan en la mayoría de veces en otros tipos de prácticas como secuestro de información, uso de datos para fines delictivos, entre otros.
     .row.bg4.mt-5(data-aos="zoom-in-left")
@@ -82,7 +82,7 @@
               .col-md-8.mb-4.mb-md-0
                 p Contraseñas que no contienen una combinación de caracteres que permitan generar una fortaleza de acceso.
               .col-md-1
-            .row(titulo="Falta de política de acceso")
+            .row(titulo="Falta de política de acceso o políticas de acesso remoto")
               .col-md-2
                 figure
                   img(src='@/assets/curso/tema2/ico3.svg', alt='Texto que describa la imagen')
@@ -101,7 +101,7 @@
                 figure
                   img(src='@/assets/curso/tema2/ico5.svg', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
-                p Este aspecto se comprende en el uso de mecanismos que permitan generar, por ejemplo, contraseñas a través de software especializado.
+                p Este aspecto se comprende en el uso de mecanismos que permitan generar, por ejemplo, contraseñas a través de <i>software</i> especializado.
               .col-md-1
         .col-lg-6
           img(src='@/assets/curso/tema2/img6.png', alt='Texto que describa la imagen')
@@ -116,7 +116,7 @@
                 figure
                   img(src='@/assets/curso/tema2/ico6.svg', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
-                p Este aspecto es bastante delicado debido a que las copias de seguridad, o en términos técnicos se refiere a backups, solo debe ser realizadas por personal entrenado y en unos equipos específicos llamados servidores. Se debe colocar como política que está prohibido realizar copias en otros equipos o dispositivos.
+                p Este aspecto es bastante delicado debido a que las copias de seguridad, o en términos técnicos se refiere a <i>backups</i>, solo debe ser realizadas por personal entrenado y en unos equipos específicos llamados servidores. Se debe colocar como política que está prohibido realizar copias en otros equipos o dispositivos.
               .col-md-1
 
 
@@ -132,7 +132,7 @@
                 figure
                   img(src='@/assets/curso/tema2/ico8.svg', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
-                p Se debe controlar que el software instalado y utilizado en la empresa se encuentre debidamente licenciado. No se debe permitir instalar programas que puedan colocar en riesgo la información de la empresa.
+                p Se debe controlar que el <i>software</i> instalado y utilizado en la empresa se encuentre debidamente licenciado. No se debe permitir instalar programas que puedan colocar en riesgo la información de la empresa.
               .col-md-1
             .row(titulo="Conexiones a red pública desprotegida")
               .col-md-2

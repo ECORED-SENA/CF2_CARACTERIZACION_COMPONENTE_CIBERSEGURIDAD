@@ -8,22 +8,28 @@
       h1 La ingeniería social 
     p La ingeniería social se ha vuelto una práctica común dentro de los ámbitos informáticos. Aunque se piensa que es una práctica nueva, en realidad se remonta a muchos años atrás. Este concepto nace en 1894 en un artículo escrito por el empresario holandés Jacob Cornelis Van Marken y con el pasar del tiempo, penetraría otras áreas hasta llegar a la informática. Esta técnica consiste en ganarse la confianza de la víctima e ir persuadiendo hasta lograr el objetivo de dar información y así poder realizar un ataque informático posteriormente.
     .row.mt-5
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.position-relative.PT1.mt-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.position-relative.PT1.mt-5
       .bloque-texto-g__img.posit(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/3.svg')})`}")
         img.posit_1(src='@/assets/curso/tema3/4.png' alt='AvatarTop')
       .bloque-texto-g__texto.p-5.posit_2
         p.mb-0 Está técnica fue utilizada por Mitnick en varias ocasiones en las que logró con mucha facilidad hacerse pasar por personal técnico de las empresas y lograr robar información, hasta el punto de lograr ser prófugo del FBI. Consideraba que la sociedad es un sistema y, por ese hecho en sí mismo, puede ser modificado para obtener un resultado determinado.
-    
+    .row.justi.mb-5
+      .col-lg-12
+        p.mb-0 Kevin Mitnick
+        p Nota. Tomado de Pastor, J. (2018)
 
     .row.bg5 
       p.mt-5 La ingeniería social requiere de mucho estudio y análisis del usuario, conocer sus puntos débiles y rutinas. Comprende realizar un seguimiento detallado y luego encontrar el momento adecuado, con las preguntas indicadas, para empezar a realizar un perfil de la posible víctima y luego proceder a realizar el ataque, teniendo en cuenta sus puntos débiles. Es importante destacar que para que esto suceda con un grado de efectividad amplio se deben tener en cuenta las siguientes consideraciones:
       .row.justify-content-center.mt-5
         .col-lg-1
         .col-lg-11.mt-5
+          .titulo-sexto.color1
+            h5 Figura 6
+            span.it Metodología de la ingeniería social
           img.mb-5(src='@/assets/curso/tema3/img2.svg', alt='Texto que describa la imagen')
     .row.bg6.mt-2(data-aos="zoom-in-left")
-      p.text-center.mt-5 <strong>Ahora se explicará cada uno de los anteriores pasos.</strong>
+      p.text-center.mt-5 <strong>Ahora se explicará cada uno de los anteriores pasos</strong>
       .row.mt-5
         .col-lg-8
           TabsA.color-acento-botones.mb-5
@@ -37,25 +43,25 @@
               h5 2. Ganarse su confianza
               p Este proceso implica una continuación del factor anteriormente mencionado puesto que realizando la identificación y monitoreo de la víctima se puede determinar qué necesidades este puede presentar y aprovecharlas para ofrecerle ayuda o un servicio. 
 
-              p Por ejemplo, una víctima publica en redes sociales que necesita ayuda con su equipo, alguién se ofrece a ayudarle con malas intenciones, y esta persona puede instalar un  software malicioso para luego robar información o espiar a la víctima posteriormente; aunque parezca algo muy poco probable sucede con mucha frecuencia.
+              p Por ejemplo, una víctima publica en redes sociales que necesita ayuda con su equipo, alguien se ofrece a ayudarle con malas intenciones, y esta persona puede instalar un  <i>software</i> malicioso para luego robar información o espiar a la víctima posteriormente; aunque parezca algo muy poco probable sucede con mucha frecuencia.
            
             .tarjeta.color-acento-botones--borde.p-4(titulo="3. Establecer patrones de rutinas")
               h5 3. Establecer patrones de rutinas
-              p Este factor es una combinación de los anteriores pasos, pero de una manera específica, pues en este punto se en la fase de recopilación de información la cual podrá ser utilizada posteriormente para cometer el delito; aunque es importante tener en cuenta que en ocasiones la víctima solo es un eslabón más de la cadena para llegar a personas o datos de mayor rango.
+              p Este factor es una combinación de los anteriores pasos, pero de una manera específica, pues en este punto en la fase de recopilación de información la cual podrá ser utilizada posteriormente para cometer el delito; aunque es importante tener en cuenta que en ocasiones la víctima solo es un eslabón más de la cadena para llegar a personas o datos de mayor rango.
 
               p Por ejemplo, un delincuente informático puede hacerle seguimiento a un niño y persuadirlo para que entregue información de las tarjetas de crédito o contraseñas de su padre, eso es aprovechar la vulnerabilidad escalando en un delito mayor.
            
-            .tarjeta.color-acento-botones--borde.p-4(titulo="4. Instalar software espía")
+            .tarjeta.color-acento-botones--borde.p-4(titulo="4. Instalar <i>software</i> espía")
               h5 4. Instalar 
                 span.it software 
                 | espía
-              p Este paso transforma la idea y la materializa al utilizar un software para realizar un proceso de monitoreo y probablemente el mismo delito. En esta fase ya se debe establecer una relación de confianza y conocer algunos aspectos de la víctima, que hasta en algunas ocasiones, puede terminar en el acceso físico o remoto del atacante en el dispositivo de la víctima.
+              p Este paso transforma la idea y la materializa al utilizar un <i>software</i> para realizar un proceso de monitoreo y probablemente el mismo delito. En esta fase ya se debe establecer una relación de confianza y conocer algunos aspectos de la víctima, que hasta en algunas ocasiones, puede terminar en el acceso físico o remoto del atacante en el dispositivo de la víctima.
            
 
         .col-lg-4
           img(src='@/assets/curso/tema3/img3.png', alt='Texto que describa la imagen')
       .titulo-segundo.color-acento-contenido.mt-5
-        h2 Ingeniería Social
+        h2 Ingeniería social
     p Se sugiere visualizar el video «Así se hace la ingeniería social», el cual encontrará en el material complementario, en el que se puede evidenciar cómo conseguir acceso a datos personales no es tan complicado y por ello es una práctica de alto cuidado.
     figure.mb-5.mt-4(data-aos="zoom-in-left")
       .video

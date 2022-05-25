@@ -122,7 +122,7 @@ export default {
         'Es una actividad realizada por vándalos informáticos para aprovechar vulnerabilidades en los sistemas informáticos y robar información.',
     },
     {
-      termino: 'Ataque Man in the middle',
+      termino: 'Ataque <i>Man in the middle</i>',
       significado:
         'Es un tipo de ataque informático que aprovecha la ingenuidad del usuario para que este acceda a una red desprotegida y que está siendo monitoreada para posteriormente robar su información.',
     },
@@ -132,7 +132,7 @@ export default {
         'Es un ataque informático que bloquea el correcto acceso a los recursos de un sistema informático. Este más que todo limita al usuario a utilizar legítimamente un sistema de información o servicio que puede brindar una empresa.',
     },
     {
-      termino: 'Hacking ético',
+      termino: '<i>Hacking</i> ético',
       significado:
         'Se conoce como la forma de realizar diagnóstico y verificación de los componentes de seguridad de un sistema informático con la finalidad de mejorar sus sistemas de seguridad.',
     },
@@ -144,15 +144,15 @@ export default {
     {
       termino: 'lastpass.com',
       significado:
-        'Es un sitio web que tiene un software que permite, mediante la combinación de diferentes caracteres, crear contraseñas seguras.',
+        'Es un sitio <i>web</i> que tiene un <i>software</i> que permite, mediante la combinación de diferentes caracteres, crear contraseñas seguras.',
     },
     {
-      termino: 'Malware',
+      termino: '<i>Malware</i>',
       significado:
-        'El malware es un tipo de software que tiene la capacidad de ser ejecutado bajo líneas de comandos oculta o invisible para la víctima y realizar operaciones como apertura de puertos, brindar acceso a otros programas y en el peor de los casos brindar acceso remoto al dispositivo.',
+        'El malware es un tipo de <i>software</i> que tiene la capacidad de ser ejecutado bajo líneas de comandos oculta o invisible para la víctima y realizar operaciones como apertura de puertos, brindar acceso a otros programas y en el peor de los casos brindar acceso remoto al dispositivo.',
     },
     {
-      termino: 'Phishing',
+      termino: '<i>Phishing</i>',
       significado:
         'Es una técnica utilizada para capturar datos e información aprovechando el descuido y desconocimiento del usuario.',
     },
@@ -249,25 +249,55 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Edison Eduardo Mantilla Cuadros'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Sergio Mauricio Valencia Martinez',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'John Jairo Arciniegas González',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'María Eugenia Mejía López',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

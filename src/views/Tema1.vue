@@ -18,18 +18,19 @@
         p.margen1 Un ataque informático, según muchos expertos, es un intento en el cual se desea acceder a un sistema violando los esquemas de seguridad y autenticación que este posee con la finalidad de apoderarse de su información.
     .row.justify-content-center.bg2
       .col-lg-10.margin1
+        p Los propósitos de un ataque informático pueden ser varios, tal como lo presenta la siguiente figura interactiva 
         .titulo-sexto.color1
           h5 Figura 1.
           span.it Propósitos de un ataque informático
         img.mt-4(src='@/assets/curso/tema1/img2.svg', alt='Texto que describa la imagen')
-    p.mt-4 Estas finalidades tienen particularidades en la forma en la que se llevan a cabo y por ende sus efectos, dentro de un sistema de información o infraestructura tecnológica, también son muy distintos. Exploremos dos tipos de ataques: Ataque Man in the Middle y Ataque por Ransomware:
+    p.mt-4 Estas finalidades tienen particularidades en la forma en la que se llevan a cabo y por ende sus efectos, dentro de un sistema de información o infraestructura tecnológica, también son muy distintos. Exploremos dos tipos de ataques: Ataque <i>Man in the Middle</i> y <i>Ataque por Ransomware:</i>
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-left")
-      .row(titulo="Man in the Middle ")
+      .row(titulo="<i>Man in the Middle</i> ")
         .col-md-1.wis
         .col-md-5.mb-4.mb-md-0
           p Ataque 
             span.it Man in the Middle
-            | , también conocido como mono en medio o hombre en medio, es un ataque informático que consiste en aprovechar una conexión legítima, que normalmente presta el servicio de Internet y luego crear una conexión con características parecidas para engañar a posibles víctimas para que estas accedan a conectarse sin percatarse que es una red que está siendo espiada por un atacante informático, quien puede utilizar un software de monitoreo para capturar la información que está siendo digitada por la víctima y después hacer uso de esta para cometer diferentes delitos informáticos contemplados en la Ley 1273 del 2009.
+            | , también conocido como mono en medio o hombre en medio, es un ataque informático que consiste en aprovechar una conexión legítima, que normalmente presta el servicio de Internet y luego crear una conexión con características parecidas para engañar a posibles víctimas para que estas accedan a conectarse sin percatarse que es una red que está siendo espiada por un atacante informático, quien puede utilizar un <i>software</i> de monitoreo para capturar la información que está siendo digitada por la víctima y después hacer uso de esta para cometer diferentes delitos informáticos contemplados en la Ley 1273 del 2009.
           p Adicional a ello, cabe destacar que la red que se utiliza para la conexión de la víctima está sin ninguna medida de seguridad, por lo que brinda mayor facilidad de conexión y, cómo esta red no utiliza un algoritmo de cifrado, los datos que viajan de manera plana pueden ser leídos sin necesidad de realizar ningún proceso de descifrar, tal como se puede observar en la figura.
       
         .col-md-6
@@ -39,7 +40,7 @@
           figure
             img(src='@/assets/curso/tema1/img3.svg', alt='Texto que describa la imagen')
 
-      .row(titulo="Ransomware ")(data-aos="zoom-in-left")
+      .row(titulo="<i>Ransomware</i> ")(data-aos="zoom-in-left")
         .col-md-1.wis
         .col-md-8.mb-4.mb-md-0.wii
           p Tipo de ataque que utilizan los delincuentes informáticos, el cual está más enfocado en el secuestro y legítimo acceso de la información, por parte de las víctimas. Tiene como propósito, que una vez la información o el sistema ha sido secuestrado, exigir sumas de dinero por la recuperación o acceso al sistema. 
@@ -63,7 +64,7 @@
       .col-lg-10
         .cajon.color-primario.p-4.mb-4(data-aos="zoom-in-left")
           p.mt-2 Esta práctica está convirtiéndose en un problema mucho más grave, puesto que los intereses van cambiando, ya que en algunos casos la información puede causar problemas aún de mayor impacto.
-    p La lista de ataques informáticos es incontable, pero en este segmento se ha querido ilustrar aquellos que por su denominación causan un daño bastante significativo, veámoslos:
+    p La lista de ataques informáticos es incontable, pero en este segmento se ha querido ilustrar aquellos que por su denominación causan un daño bastante significativo, veámoslo:
     .fondo1.py-5
       .col-lg-3
         p.mb-4.text-white(data-aos="fade-left") Haga clic en cada uno de los íconos y conozca los ataques comunes.
@@ -120,9 +121,9 @@
           div.p-0(v-show="seleccion==2")
             p.mb-4 Es un programa que tiene la capacidad de modificar funciones del sistema y colocar en riesgo la información que este almacena.
           div.p-0(v-show="seleccion==3")
-            p.mb-4 Es un tipo de malware que tiene la capacidad de propagarse en una red de computadoras afectando un gran número de ellas.
+            p.mb-4 Es un tipo de <i>malware</i> que tiene la capacidad de propagarse en una red de computadoras afectando un gran número de ellas.
           div.p-0(v-show="seleccion==4")
-            p.mb-0 Es un tipo de malware que se copia en una computadora y luego espera una orden, regularmente desde un equipo por fuera de la red, para realizar acciones que colocan en riesgo la información que se maneja en un sistema informático.
+            p.mb-0 Es un tipo de <i>malware</i> que se copia en una computadora y luego espera una orden, regularmente desde un equipo por fuera de la red, para realizar acciones que colocan en riesgo la información que se maneja en un sistema informático.
           div.p-0(v-show="seleccion==5")
             p.mb-4 Tipo de virus informático cuya finalidad es permitir realizar acciones de espionaje y seguimiento a sistemas informáticos para ver los movimientos que realiza el usuario en el sistema informático.
           div.p-0(v-show="seleccion==6")

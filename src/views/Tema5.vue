@@ -8,7 +8,11 @@
       h1 Códigos de ética
     p La ética informática es una disciplina que ha estado tomando fuerza en los años presentes, este aspecto involucra tres ejes fundamentales que son: las personas, la tecnología y los procesos.
     .row.justify-content-center.mt-4(data-aos="zoom-in-left")
+
       .col-lg-8
+        .titulo-sexto.color1
+          h5 Figura 8
+          span.it Ética informática
         img(src='@/assets/curso/tema5/img1.svg', alt='Texto que describa la imagen')
     p.mt-5 La regulación de los aspectos éticos del profesional responsable de los sistemas de información debe generar un alto compromiso con la manipulación y despliegue de la infraestructura tecnológica; el no cumplir con estos lineamientos incurre en delitos sancionables por la Ley 1273 de 2009 en los que puede llegar a tener también problemas legales y suspensión de su tarjeta profesional.
     p A continuación, se nombran algunos que están estrechamente relacionados con estos aspectos y se denominan, en el campo de los sistemas, los mandamientos de la ética informática:
