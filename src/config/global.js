@@ -54,6 +54,12 @@ export default {
         titulo: 'Códigos de ética ',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica ',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
