@@ -241,6 +241,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Dulfran Antonio Montaño Montaño',
+        cargo: 'Experto Temático',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Miroslava González Hernández',
+        cargo: 'Diseñadora Instruccional',
+        centro:
+          'Regional Norte de Santander – Centro de la Industria, la Empresa y los Servicios',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Asesor Metodológico',
+        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Corrección de estilo',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
     ],
     desarrolloProducto: [
       {
