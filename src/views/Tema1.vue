@@ -7,7 +7,7 @@
         span 1
       h1 Ataques informáticos
   
-    p Cuando se hace referencia al evento de «ataques informáticos», a gran parte a las personas esto les genera pánico, debido a sucesos presentados en años actuales. Ahora bien, aunque no es un secreto que la seguridad de la información ha generado ciertos problemas en la sociedad actual (en la cual se concibe la seguridad como algo de suprema delicadeza), no se puede decir que esta no existe, solo por la carencia sistemas de autenticación o de seguridad.
+    p Cuando se hace referencia al evento de «ataques informáticos», a gran parte a las personas esto les genera pánico, debido a sucesos presentados en años actuales. Ahora bien, aunque no es un secreto que la seguridad de la información ha generado ciertos problemas en la sociedad actual (en la cual se concibe la seguridad como algo de suprema delicadeza), no se puede decir que esta no existe, solo por la carencia de sistemas de autenticación o de seguridad.
     p Es así como las empresas prestadoras de servicios tecnológicos realizan grandes esfuerzos por garantizar que los datos se encuentren seguros y que la información pueda ser utilizada de manera correcta, a través de la implementación de los pilares de la información: integridad, confidencialidad, disponibilidad.
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.PT1(data-aos="zoom-in-left")
       .bloque-texto-g__img(
@@ -30,7 +30,7 @@
         .col-md-5.mb-4.mb-md-0
           p Ataque 
             span.it Man in the Middle
-            | , también conocido como mono en medio o hombre en medio, es un ataque informático que consiste en aprovechar una conexión legítima, que normalmente presta el servicio de Internet y luego crear una conexión con características parecidas para engañar a posibles víctimas para que estas accedan a conectarse sin percatarse que es una red que está siendo espiada por un atacante informático, quien puede utilizar un <i>software</i> de monitoreo para capturar la información que está siendo digitada por la víctima y después hacer uso de esta para cometer diferentes delitos informáticos contemplados en la Ley 1273 del 2009.
+            | , también conocido como mono en medio u hombre en medio, es un ataque informático que consiste en aprovechar una conexión legítima, que normalmente presta el servicio de Internet y luego crear una conexión con características parecidas para engañar a posibles víctimas para que estas accedan a conectarse sin percatarse que es una red que está siendo espiada por un atacante informático, quien puede utilizar un <i>software</i> de monitoreo para capturar la información que está siendo digitada por la víctima y después hacer uso de esta para cometer diferentes delitos informáticos contemplados en la Ley 1273 del 2009.
           p Adicional a ello, cabe destacar que la red que se utiliza para la conexión de la víctima está sin ninguna medida de seguridad, por lo que brinda mayor facilidad de conexión y, cómo esta red no utiliza un algoritmo de cifrado, los datos que viajan de manera plana pueden ser leídos sin necesidad de realizar ningún proceso de descifrar, tal como se puede observar en la figura.
       
         .col-md-6

@@ -79,7 +79,7 @@
 
           .tarjeta.color-acento-botones.p-3(x="49.3%" y="4.5%" numero="")
 
-            p En la planeación se determina el alcance que tendrá el proceso y, adicional a ello, las actividades que se desean realizar y los tiempos que está llevara. También, se debe tener en cuenta las personas involucradas en dichos procesos, permitiendo garantizar el correcto funcionamiento de la planeación.
+            p En la planeación se determina el alcance que tendrá el proceso y, adicional a ello, las actividades que se desean realizar y los tiempos que esta llevará. También, se debe tener en cuenta las personas involucradas en dichos procesos, permitiendo garantizar el correcto funcionamiento de la planeación.
 
           .tarjeta.color-acento-botones.p-3(x="3%" y="51%" numero="")
             p Se establecen las correcciones de acuerdo a los hallazgos encontrados. Este proceso debe tener una vigilancia que garantice que se realiza de manera correcta. Adicional a ello, se debe entregar un informe de lo corregido y encontrado.
